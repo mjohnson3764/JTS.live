@@ -28,8 +28,10 @@ modalCloseButton.addEventListener("click", function () {
 const emails = ["sales@johnsonturbine.com", "shop@johnsonturbine.com"];
 
 const emailHolder = document.getElementById("email-holder");
+const emailPrincipal = document.getElementById("email-principal");
 if (emailHolder) {
   this.setTimeout(function () {
+    emailPrincipal.href = `mailto:${emails[0]}`;
     for (email of emails) {
       const a = document.createElement("a");
       a.text = email;
