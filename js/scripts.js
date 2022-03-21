@@ -24,3 +24,17 @@ modalCloseButton.addEventListener("click", function () {
   modal.style.display = "none";
   body.style.overflow = "unset";
 });
+
+const emails = ["sales@johnsonturbine.com", "shop@johnsonturbine.com"];
+
+const emailHolder = document.getElementById("email-holder");
+if (emailHolder) {
+  this.setTimeout(function () {
+    for (email of emails) {
+      const a = document.createElement("a");
+      a.text = email;
+      a.href = `mailto:${email}`;
+      emailHolder.appendChild(a);
+    }
+  }, 1000);
+}
