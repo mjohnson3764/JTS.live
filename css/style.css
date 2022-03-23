@@ -3988,6 +3988,16 @@ i.glyphicon.glyphicon-calendar {
   font-size: 8rem;
 }
 
+.ribbon {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .ribbon {
+    width: 50%;
+  }
+}
+
 /* Utility classes */
 .btn-primary {
   background-color: #1f4f83;
