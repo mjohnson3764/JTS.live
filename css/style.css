@@ -3996,7 +3996,13 @@ i.glyphicon.glyphicon-calendar {
 
 @media screen and (min-width: 768px) {
   .ribbon {
-    width: 50%;
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .ribbon {
+    width: 40%;
   }
 }
 
