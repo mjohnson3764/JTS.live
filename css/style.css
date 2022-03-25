@@ -4024,6 +4024,25 @@ i.glyphicon.glyphicon-calendar {
   margin-left: 5px;
 }
 
+.separator-content {
+  animation: translater 1.5s linear infinite;
+}
+
+@keyframes translater {
+  25% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 /* Utility classes */
 .btn-primary {
   background-color: #1f4f83;
