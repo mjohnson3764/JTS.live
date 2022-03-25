@@ -4006,6 +4006,24 @@ i.glyphicon.glyphicon-calendar {
   }
 }
 
+.separator::before,
+.separator::after {
+  content: "";
+  display: block;
+  height: 0.09em;
+  min-width: 30vw;
+}
+
+.separator::before {
+  background: linear-gradient(to right, rgba(240, 240, 240, 0), #212529);
+  margin-right: 5px;
+}
+
+.separator::after {
+  background: linear-gradient(to left, rgba(240, 240, 240, 0), #212529);
+  margin-left: 5px;
+}
+
 /* Utility classes */
 .btn-primary {
   background-color: #1f4f83;
